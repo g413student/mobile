@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">bilet1</string>
+    <string name="a">A:</string>
+    <string name="b">B:</string>
+    <string name="result">Result:</string>
+    <string name="add">Add</string>
+    <string name="substract">Substract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="sin">Sin</string>
+    <string name="cos">Cos</string>
+    <string name="tan">Tan</string>
+    <string name="pi">Pi</string>
+    <string name="e">e</string>
+</resources>

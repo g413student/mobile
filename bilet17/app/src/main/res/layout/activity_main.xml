@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkApple"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkApple" />
+
+        <EditText
+            android:id="@+id/txtApple"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/TextApple" />
+
+        <EditText
+            android:id="@+id/prcApple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="@string/priceApple" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkStrawberry"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkStrawberry" />
+
+        <EditText
+            android:id="@+id/txtStrawbberry"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/TextStrawberry" />
+
+        <EditText
+            android:id="@+id/prcStrawberry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/priceStrawberry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkBlueberry"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBlueberry" />
+
+        <EditText
+            android:id="@+id/txtBlueberry"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/TextBlueberry" />
+
+        <EditText
+            android:id="@+id/prcBlueberry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/priceBlueberry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkPotatoes"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/checkPotatoes" />
+
+        <EditText
+            android:id="@+id/txtPotatoes"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/TextPotatoes" />
+
+        <EditText
+            android:id="@+id/prcPotatoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/pricePotatoes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCalc"
+            android:text="@string/CalculateText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbToast"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/radToast" />
+
+            <RadioButton
+                android:id="@+id/rbDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/radDialog" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

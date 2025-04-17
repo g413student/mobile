@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">b21-Slovary</string>
+
+        <string name="key">Key</string>
+        <string name="value">Value</string>
+
+        <string name="insert">Insert</string>
+        <string name="update">Update</string>
+        <string name="select">Select</string>
+        <string name="delete">Delete</string>
+
+
+    </resources>

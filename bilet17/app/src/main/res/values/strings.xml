@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">bilet17</string>
+    <string name="btnCalc" />
+    <string name="CalculateText">Calculate</string>
+    <string name="checkApple">Apple</string>
+    <string name="checkStrawberry">Strawberry</string>
+    <string name="checkBlueberry">Blueberry</string>
+    <string name="checkPotatoes">Potatoes</string>
+    <string name="TextPotatoes" />
+    <string name="TextBlueberry" />
+    <string name="TextStrawberry" />
+    <string name="TextApple" />
+    <string name="priceApple" />
+    <string name="priceStrawberry" />
+    <string name="priceBlueberry" />
+    <string name="pricePotatoes" />
+    <string name="radToast">Toast</string>
+    <string name="radDialog">Dialog</string>
+</resources>

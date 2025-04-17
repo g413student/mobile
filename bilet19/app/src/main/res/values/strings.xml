@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bilet19</string>
+    <string name="infText">Text</string>
+    <string name="OPENbutt">OPEN DIALOG</string>
+    <string name="EXITbutt">EXIT APP</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCANCEL">CANCEL</string>
+</resources>

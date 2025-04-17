@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">bilet20</string>
+    <string name="but_NEW">NEW</string>
+    <string name="but_EDIT">EDIT</string>
+    <string name="but_DELETE">DELETE</string>
+    <string name="TxtViewTitle">TITLE</string>
+    <string name="TxtViewContent">CONTENT</string>
+    <string name="butCANCEL">CANCEL</string>
+    <string name="butOK">OK</string>
+</resources>
